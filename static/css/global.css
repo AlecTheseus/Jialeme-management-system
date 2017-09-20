@@ -1,0 +1,119 @@
+body,p,h1,br,hr,h2,h3,h4,h5,ul,li,ol,dl,dt,dd,input,img,form,table,fieldset, span, legend, button, div{margin:0;padding:0; box-sizing: border-box;}
+ul,li,ol{list-style:none;}
+a{text-decoration:none;color:black;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+img{border:none;}
+body,html{height:100%;font-family:"微软雅黑"!important;}
+.clear:after{content:"";display:block;clear:both;}
+
+.flexBase{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+.leftBar{
+  width: 85px;
+  min-width: 85px;
+  background-color: #34D377;
+  height: 100vh;
+  border-right:3px solid #81BA99;
+}
+.fr{
+  float:right;
+}
+.basicBlue{
+  color:#0178FF;
+}
+section{
+  min-width: 1550px;
+  flex: 1;
+}
+header{
+  height: 80px;
+  padding: 20px 0 0 20px;
+  border-bottom: 2px solid #EEE;
+}
+header img{
+  width: 35px;
+  margin-right: 20px;
+}
+.mainInfo{
+  padding-left: 20px;
+  padding-top: 20px;
+  position: relative;
+}
+.loading{
+  position: fixed;
+  display: block;
+  left: 240px;
+  top:20px;
+  width: 4rem!important;
+  z-index: 101;
+}
+.month{
+  background-color: white;
+  width:140px;
+  color:#666;
+  text-align: left;
+  top:100px;
+  left:300px;
+}
+.month li{
+  padding-left: 10px;
+  border: 1px solid #666;
+  margin-top: -1px;
+  height:30px;
+  line-height: 30px;
+}
+.month .glyphicon-chevron-right{
+  margin-left: 30px;
+}
+.month li:hover{
+  background-color: #999;
+  color:white;
+}
+.monthActive{
+  background-color: #666;
+  color:white;
+}
+.cover{
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 99;
+  width: 100%;
+}
+.changeBox{
+  width: 240px;
+  top:200px;
+  left:300px;
+  background-color: white;
+  border: 2px solid #666;
+  z-index: 100;
+  position: absolute;
+  padding: 20px;
+}
+.changeBox .title{
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.changeBox .infoShow{
+  height: auto!important;
+}
+.changeBox input,.changeBox select{
+  width: 100%;
+}
+
+.changeBox div{
+  margin-top: 10px;
+}
+.changeBox .hint{
+  padding-top: 10px;
+  clear: both;
+  color:#DA4F4A;
+}
+
